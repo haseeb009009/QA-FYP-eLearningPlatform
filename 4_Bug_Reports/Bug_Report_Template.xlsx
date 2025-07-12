@@ -1,1 +1,7 @@
- 
+| Bug ID  | Module      | Severity | Steps to Reproduce                                                  | Expected Result                       | Actual Result                          | Status       |
+| ------- | ----------- | -------- | ------------------------------------------------------------------- | ------------------------------------- | -------------------------------------- | ------------ |
+| BUG-001 | Login       | High     | 1. Enter valid email<br>2. Leave password blank<br>3. Click "Login" | Error message: "Password is required" | Page reloads without any message       | Open         |
+| BUG-002 | Enrollment  | Medium   | 1. Browse courses<br>2. Click "Enroll" without login                | Redirect to login page                | No action; button appears unresponsive | Open         |
+| BUG-003 | Certificate | Low      | 1. Complete a course<br>2. Go to "My Certificates"                  | Certificate download link visible     | Download icon overlaps with text       | Acknowledged |
+| BUG-004 | Dashboard   | Medium   | 1. Instructor logs in<br>2. View student progress chart             | Progress chart loads correctly        | Chart doesn't render in Firefox        | Fixed        |
+| BUG-005 | Payment     | High     | 1. Choose paid course<br>2. Select Easypaisa<br>3. Submit payment   | Redirect to Easypaisa gateway         | Error 500 page shown                   | Open         |
