@@ -103,7 +103,3 @@ Exit Criteria:
 | Delay in development delivery | Frequent follow-ups, buffer time  |
 | API not ready during testing  | Use mocked APIs temporarily       |
 | Test environment instability  | Backup and snapshot system states |
-
----
-
-Would you like a .docx template file or markdown version of this for GitHub right now? I can generate and share the file with you.
