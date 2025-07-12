@@ -1,0 +1,109 @@
+Test Plan Document
+
+Project Title: eLearning Platform
+Test Plan Version: 1.0
+Prepared By: Haseeb ur Rehman
+Date: \[Enter Date]
+
+---
+
+ 1. Introduction
+
+This Test Plan outlines the strategy, scope, resources, and schedule for testing the eLearning Platform. The purpose of this document is to define testing activities to ensure the system meets its requirements and functions correctly.
+
+---
+
+ 2. Scope of Testing *(From SRS Chapter 1.1)*
+
+The eLearning Platform enables students and instructors to interact with learning materials, manage courses, and track progress. Key features to be tested include:
+
+* User registration, login, and role-based access
+* Course creation, browsing, and enrollment
+* Certificate generation upon completion
+* Online payments and user notifications
+* Admin dashboard management
+
+Testing will cover functional, non-functional, API, and performance aspects.
+
+---
+
+ 3. Features to be Tested *(From Chapter 1.2 – Modules)*
+
+* User Module – Registration, login, role assignment
+* Courses Module – Course creation, categorization, upload of resources
+* Enrollment Module – Course listing, enrollment process
+* Payment Module – Online payment via JazzCash, Easypaisa, cards
+* Certificate Generation Module – Automated certificate creation
+
+---
+
+ 4. User Roles & Characteristics *(From Chapter 2.2)*
+
+* Admin: Manages courses, teachers, and overall platform operations.
+* Instructor: Creates and manages course content and tracks student progress.
+* Student: Registers, enrolls, watches videos, completes quizzes, and receives certificates.
+
+Each user role will be tested for its respective access and functionality.
+
+---
+
+ 5. Test Environment *(From Chapter 2.3)*
+
+* Backend: PHP with MySQL
+* Frontend: HTML, CSS, JavaScript, Bootstrap
+* Server: Apache/NGINX
+* Browsers: Chrome, Firefox, Safari, Edge
+* Devices: Desktop, Mobile, Tablets
+* OS Support: Windows, macOS, Linux, Android, iOS
+
+---
+
+ 6. Constraints *(From Chapter 2.4)*
+
+* Must use PHP for backend development.
+* MySQL as the database system.
+* Frontend built using HTML/CSS/JS with Bootstrap.
+* APIs are required for third-party integrations (e.g., video streaming, content management).
+
+---
+
+ 7. Entry & Exit Criteria
+
+Entry Criteria:
+
+* All modules must be developed and deployed to the staging server.
+* SRS and design documents must be approved.
+* Test cases must be prepared and reviewed.
+
+Exit Criteria:
+
+* All critical test cases are executed.
+* All critical and high-severity bugs are resolved.
+* Test Summary Report is approved.
+
+---
+
+ 8. Deliverables
+
+* Test Plan Document (this file)
+* Test Cases
+* RTM
+* Bug Reports
+* Test Summary Report
+* Cypress Test Scripts
+* Postman API Collection
+* JMeter Load Test Results
+
+---
+
+ 9. Risks & Mitigations
+
+| Risk                          | Mitigation                        |
+| ----------------------------- | --------------------------------- |
+| Delay in development delivery | Frequent follow-ups, buffer time  |
+| API not ready during testing  | Use mocked APIs temporarily       |
+| Test environment instability  | Backup and snapshot system states |
+
+---
+
+Would you like a .docx template file or markdown version of this for GitHub right now? I can generate and share the file with you.
