@@ -19,5 +19,5 @@ This repository contains Software Testing and QA artifacts for my Final Year Pro
 
 ## 📎 Based on
 
-- [Final SRS Document (PDF)](final_srs.pdf)
+- [Final SRS Document (PDF)](final srs.pdf)
 - COMSATS University Final Year Project (2025)
