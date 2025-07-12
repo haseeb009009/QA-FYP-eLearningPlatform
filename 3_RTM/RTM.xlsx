@@ -1,1 +1,7 @@
- 
+| FR-ID | Requirement Description     | Test Case IDs    | Status  |
+| ----- | --------------------------- | ---------------- | ------- |
+| FR-1  | User Login and Registration | TC-001 to TC-009 | Covered |
+| FR-2  | Course Management           | TC-010 to TC-014 | Covered |
+| FR-3  | Enrollment System           | TC-015 to TC-017 | Covered |
+| FR-4  | Progress Tracking           | TC-018           | Covered |
+| FR-9  | Admin Panel Role            | TC-019 to TC-021 | Covered |
