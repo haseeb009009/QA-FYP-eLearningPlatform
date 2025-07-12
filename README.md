@@ -5,9 +5,6 @@ This repository contains Software Testing and QA artifacts for my Final Year Pro
 ## 🔍 Project Highlights
 
 - Full STLC applied: Test Planning → Test Case Design → Execution → Defect Logging → Test Summary
-- Manual & Automated testing using Cypress
-- API Testing via Postman
-- Load Testing using Apache JMeter
 - Full QA Documentation including RTM, Bug Reports, Test Plan & Summary
 
 ## 🗂️ Folder Structure
@@ -19,9 +16,6 @@ This repository contains Software Testing and QA artifacts for my Final Year Pro
 | `3_RTM/`               | Requirement Traceability Matrix             |
 | `4_Bug_Reports/`       | Defect logs with severity, steps, etc.      |
 | `5_Test_Summary_Report/` | Overall test coverage & results         |
-| `6_Cypress_Tests/`     | Automation scripts                         |
-| `7_Postman_API_Tests/` | API test collections (Postman)             |
-| `8_JMeter_Performance/`| Load test plan and result analysis         |
 
 ## 📎 Based on
 
